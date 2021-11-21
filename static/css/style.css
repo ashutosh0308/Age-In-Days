@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(64, 240, 131);
+}
+.container-1{
+    text-align: center;
+}
+.box-1{
+    display:flex;
+    border :  0.5vh solid black;
+    padding : 2vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box-1 div{
+    display:flex;
+    border :  0.5vh solid black;
+    padding : 2vw;
+}
+.btn{
+    background-color: rgb(65, 132, 231);
+    height: 7vh;
+    width: 10vw;
+    border-radius: 2vw;
+    font-size: 2.5vh;
+}
+
+#reset{
+    background-color: crimson;
+}
