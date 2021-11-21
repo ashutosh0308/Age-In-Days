@@ -56,9 +56,6 @@ function ageInDays(){
     
 }
 function reset(){
-    document.getElementById("age").remove();
-    document.getElementById("day").value = "";
-    document.getElementById("month").value = "";
-    document.getElementById("year").value = "";
+    document.getElementById("box-result-1").innerHTML= "";
 }
 
